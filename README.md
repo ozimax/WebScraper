@@ -21,15 +21,25 @@ This full-stack application allows users to check the ranking position of a spec
 - Node.js and npm (for the Vue client)
 
 
-### Running with Multiple Startup Projects (Recommended)
+### Running the API
 
-1. Open the solution `WebScraper.sln` in Visual Studio.
-2. Right-click the solution and choose **Set Startup Projects**.
-3. Select **Multiple startup projects** and set both:
-   - `WebScraper.API` to **Start**
-   - `WebScraper.Client` to **Start**
-4. Run the solution (press `F5` or click the green play button).
-5. The backend will run at  `https://localhost:7196`
+- Open the solution in Visual Studio.
+
+- Set WebScraper.API as the startup project.
+
+- Run the API (F5 or Ctrl+F5).
+
+- It should run on https://localhost:7196 (check launchSettings.json if not).
+
+### Running the Client
+
+- Open a terminal:
+
+- cd WebScraper.Client
+
+- npm install
+
+- npm run dev
 
 
 ## Potential Challenges
